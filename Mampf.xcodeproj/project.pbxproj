@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36CA9F5425CAAD9A31FAE236 /* Pods_Mampf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E002648CF2DF1CCA7BD815 /* Pods_Mampf.framework */; };
 		FC8CB3171F99F27400E29DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CB3161F99F27400E29DE7 /* AppDelegate.swift */; };
 		FC8CB3191F99F27400E29DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CB3181F99F27400E29DE7 /* ViewController.swift */; };
 		FC8CB31C1F99F27400E29DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8CB31A1F99F27400E29DE7 /* Main.storyboard */; };
 		FC8CB31E1F99F27400E29DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8CB31D1F99F27400E29DE7 /* Assets.xcassets */; };
 		FC8CB3211F99F27400E29DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8CB31F1F99F27400E29DE7 /* LaunchScreen.storyboard */; };
+		FC8CB3291F99F3DA00E29DE7 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC8CB3281F99F3DA00E29DE7 /* GoogleService-Info-2.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0E002648CF2DF1CCA7BD815 /* Pods_Mampf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mampf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7877E665C8B5C7B3631A14C /* Pods-Mampf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mampf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mampf/Pods-Mampf.debug.xcconfig"; sourceTree = "<group>"; };
+		E75B6AF85BD9A979A9AD5C1D /* Pods-Mampf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mampf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mampf/Pods-Mampf.release.xcconfig"; sourceTree = "<group>"; };
 		FC8CB3131F99F27400E29DE7 /* Mampf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mampf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8CB3161F99F27400E29DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC8CB3181F99F27400E29DE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		FC8CB31D1F99F27400E29DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC8CB3201F99F27400E29DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC8CB3221F99F27400E29DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8CB3281F99F3DA00E29DE7 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CA9F5425CAAD9A31FAE236 /* Pods_Mampf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F65FAC7DD4F3F46DE3F694E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E002648CF2DF1CCA7BD815 /* Pods_Mampf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D0266501CC05E409C80E69E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7877E665C8B5C7B3631A14C /* Pods-Mampf.debug.xcconfig */,
+				E75B6AF85BD9A979A9AD5C1D /* Pods-Mampf.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FC8CB30A1F99F27400E29DE7 = {
 			isa = PBXGroup;
 			children = (
 				FC8CB3151F99F27400E29DE7 /* Mampf */,
 				FC8CB3141F99F27400E29DE7 /* Products */,
+				4D0266501CC05E409C80E69E /* Pods */,
+				0F65FAC7DD4F3F46DE3F694E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				FC8CB31D1F99F27400E29DE7 /* Assets.xcassets */,
 				FC8CB31F1F99F27400E29DE7 /* LaunchScreen.storyboard */,
 				FC8CB3221F99F27400E29DE7 /* Info.plist */,
+				FC8CB3281F99F3DA00E29DE7 /* GoogleService-Info-2.plist */,
 			);
 			path = Mampf;
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC8CB3251F99F27400E29DE7 /* Build configuration list for PBXNativeTarget "Mampf" */;
 			buildPhases = (
+				C3C5BB087A8646855C498D73 /* [CP] Check Pods Manifest.lock */,
 				FC8CB30F1F99F27400E29DE7 /* Sources */,
 				FC8CB3101F99F27400E29DE7 /* Frameworks */,
 				FC8CB3111F99F27400E29DE7 /* Resources */,
+				B4DECEFF55F06DA228AF89AF /* [CP] Embed Pods Frameworks */,
+				D4203D15E97BC1A45D68C7FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,11 +155,70 @@
 			files = (
 				FC8CB3211F99F27400E29DE7 /* LaunchScreen.storyboard in Resources */,
 				FC8CB31E1F99F27400E29DE7 /* Assets.xcassets in Resources */,
+				FC8CB3291F99F3DA00E29DE7 /* GoogleService-Info-2.plist in Resources */,
 				FC8CB31C1F99F27400E29DE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4DECEFF55F06DA228AF89AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mampf/Pods-Mampf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mampf/Pods-Mampf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C5BB087A8646855C498D73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mampf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4203D15E97BC1A45D68C7FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mampf/Pods-Mampf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC8CB30F1F99F27400E29DE7 /* Sources */ = {
@@ -272,6 +361,7 @@
 		};
 		FC8CB3261F99F27400E29DE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7877E665C8B5C7B3631A14C /* Pods-Mampf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +377,7 @@
 		};
 		FC8CB3271F99F27400E29DE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75B6AF85BD9A979A9AD5C1D /* Pods-Mampf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

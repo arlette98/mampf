@@ -1,0 +1,6 @@
+framework module Pods_Mampf {
+  umbrella header "Pods-Mampf-umbrella.h"
+
+  export *
+  module * { export * }
+}
